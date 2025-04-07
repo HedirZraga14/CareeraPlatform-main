@@ -1,0 +1,142 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Statistiques des Offres{% endblock %}
+{% block navbar %}
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-3">
+                <a href="{{ path('app_home') }}" class="navbar-brand d-flex align-items-center text-center">
+                    
+                    <img class="img-fluid" src="{{ asset('img/transparentcareera.png') }}" alt="Icon" style="width: 150px; height: 100px;">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="{{ path('app_home') }}" class="nav-item nav-link active">Acceuil</a>
+                        <a href="{{ path('app_offremod') }}" class="nav-item nav-link">Offres d'emploi</a>
+                        <a href="{{ path('app_event') }}" class="nav-item nav-link">Evénements</a>
+                        <a href="{{ path('app_offrefrelencer_index') }}" class="nav-item nav-link">Mission freelance</a>
+                        <a href="{{ path('discussion_stats') }}" class="nav-item nav-link">Communication</a>
+                        <a href="{{ path('chatbot_page') }}" class="nav-item nav-link {% if app.request.get('_route') == 'chatbot_page' %}active{% endif %}">
+                            <i class="fa-solid fa-robot"></i>  
+                        </a>
+                    </div>
+                     <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user-circle fa-2x"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="{{ path('app_profilemoderateur') }}">Profile</a></li>
+                            <li>
+                                <a class="dropdown-item" href="{{ path('app_logout') }}">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+{% endblock %}
+
+{% block body %}
+<h1 class="mt-5 mb-4 text-center">Statistiques des Offres</h1>
+
+<div class="charts-container">
+    <div class="chart-box">
+        <h5 class="text-center">Les offres par type d'offre</h3>
+        <canvas id="offreChart"></canvas>
+    </div>
+    <div class="chart-box">
+        <h5 class="text-center">Les offres par localisation</h3>
+        <canvas id="localisationChart"></canvas>
+    </div>
+    <div class="chart-box">
+        <h5 class="text-center">Les offres par salaire</h3>
+        <canvas id="salaireChart"></canvas>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+
+
+
+
+
+<script>
+    function generateColors(count) {
+        let colors = [];
+        let borderColors = [];
+        for (let i = 0; i < count; i++) {
+            let color = `hsl(${Math.random() * 360}, 70%, 60%)`;
+            colors.push(color.replace("hsl", "hsla").replace(")", ", 0.5)"));
+            borderColors.push(color);
+        }
+        return { colors, borderColors };
+    }
+
+    function createChart(id, labels, data, type, title) {
+        var ctx = document.getElementById(id).getContext('2d');
+        var colorSet = generateColors(labels.length);
+        
+        new Chart(ctx, {
+            type: type,
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: title,
+                    data: data,
+                    backgroundColor: colorSet.colors,
+                    borderColor: colorSet.borderColors,
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: type === 'bar' ? { y: { beginAtZero: true } } : {}
+            }
+        });
+    }
+
+    createChart("offreChart", JSON.parse('{{ labelsOffre|raw }}'), JSON.parse('{{ dataOffre|raw }}'), "pie", "Répartition par Type d'Offre");
+    createChart("localisationChart", JSON.parse('{{ labelsLocalisation|raw }}'), JSON.parse('{{ dataLocalisation|raw }}'), "bar", "Répartition par Localisation", true);
+    createChart("salaireChart", JSON.parse('{{ labelsSalaire|raw }}'), JSON.parse('{{ dataSalaire|raw }}'), "doughnut", "Répartition par Tranche de Salaire");
+
+</script>
+
+<style> 
+    .charts-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .chart-box {
+        width: 400px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #f8f9fa;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    canvas {
+        width: 100% !important;
+        height: 100% !important;
+    }
+</style>
+
+{% endblock %}

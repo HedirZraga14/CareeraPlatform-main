@@ -1,0 +1,125 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ajouter un événement{% endblock %}
+{% block navbar %}
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-3">
+                <a href="{{ path('app_home') }}" class="navbar-brand d-flex align-items-center text-center">
+                    
+                    <img class="img-fluid" src="{{ asset('img/transparentcareera.png') }}" alt="Icon" style="width: 150px; height: 100px;">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="{{ path('app_home') }}" class="nav-item nav-link active">Acceuil</a>
+                        <a href="{{ path('app_offremod') }}" class="nav-item nav-link">Offres d'emploi</a>
+                        <a href="{{ path('app_event') }}" class="nav-item nav-link">Evénements</a>
+                        <a href="{{ path('app_offrefrelencer_index') }}" class="nav-item nav-link">Mission freelance</a>
+                        <a href="{{ path('discussion_stats') }}" class="nav-item nav-link">Communication</a>
+                        <a href="{{ path('chatbot_page') }}" class="nav-item nav-link {% if app.request.get('_route') == 'chatbot_page' %}active{% endif %}">
+                            <i class="fa-solid fa-robot"></i>  
+                        </a>
+                    </div>
+                     <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user-circle fa-2x"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="{{ path('app_profilemoderateur') }}">Profile</a></li>
+                            <li>
+                                <a class="dropdown-item" href="{{ path('app_logout') }}">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+{% endblock %}
+
+{% block body %}
+<div class="container my-5">
+    <h1 class="text-center mb-4 text-primary fw-bold">Créer un nouvel événement</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm p-4 wow fadeInUp" data-wow-delay="0.5s">
+                <p class="text-muted text-center mb-4">Remplissez les détails ci-dessous pour ajouter votre événement.</p>
+                
+                {{ form_start(addform, {'attr': {'novalidate': 'novalidate', 'class': 'needs-validation'}}) }}
+                <div class="row g-3">
+                    <!-- Nom -->
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            {{ form_row(addform.nom, {'attr': {'class': 'form-control border-primary-subtle', 'placeholder': 'Nom de l\'événement', 'required': 'required'}}) }}
+                            <label for="{{ addform.nom.vars.id }}"><span class="text-danger">*</span></label>
+                        </div>
+                    </div>
+
+                    <!-- Date -->
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            {{ form_row(addform.date, {'attr': {'class': 'form-control border-primary-subtle', 'placeholder': 'Date', 'required': 'required'}}) }}
+                            <label for="{{ addform.date.vars.id }}"> <span class="text-danger">*</span></label>
+                        </div>
+                    </div>
+
+                    <!-- Description -->
+                    <div class="col-12">
+                        <div class="form-floating">
+                            {{ form_row(addform.description, {'attr': {'class': 'form-control border-primary-subtle', 'placeholder': 'Description', 'rows': '6', 'required': 'required'}}) }}
+                            <label for="{{ addform.description.vars.id }}"><span class="text-danger">*</span></label>
+                        </div>
+                    </div>
+
+                    <!-- Lieu -->
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            {{ form_row(addform.lieu, {'attr': {'class': 'form-control border-primary-subtle', 'placeholder': 'Lieu', 'required': 'required'}}) }}
+                            <label for="{{ addform.lieu.vars.id }}"> <span class="text-danger">*</span></label>
+                        </div>
+                    </div>
+
+                    <!-- Type d'événement -->
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            {{ form_row(addform.TypeEvent, {'attr': {'class': 'form-select border-primary-subtle', 'placeholder': 'Type d\'événement'}}) }}
+                            <label for="{{ addform.TypeEvent.vars.id }}"></label>
+                        </div>
+                    </div>
+
+                    <!-- URL Image Cloudinary -->
+                    <div class="col-12">
+                        <div class="form-floating">
+                            {{ form_row(addform.imageUrl, {'attr': {'class': 'form-control border-primary-subtle', 'placeholder': 'URL de l\'image '}}) }}
+                            <label for="{{ addform.imageUrl.vars.id }}"></label>
+                        </div>
+                    </div>
+
+                    <!-- Disponibilité -->
+                    <div class="col-12">
+                        <div class="form-check form-switch">
+                            {{ form_row(addform.disponibilite, {'attr': {'class': 'form-check-input'}}) }}
+                            <label for="{{ addform.disponibilite.vars.id }}" class="form-check-label fw-medium"></label>
+                        </div>
+                    </div>
+
+                    <!-- Bouton Soumettre -->
+                    <div class="col-12 text-center mt-4">
+                        <button class="btn btn-success w-50 py-2 rounded-pill fw-semibold" type="submit">
+                            <i class="fas fa-save me-2"></i> Enregistrer l'événement
+                        </button>
+                    </div>
+                </div>
+                {{ form_end(addform) }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Inclure FontAwesome pour les icônes (si non déjà inclus dans base.html.twig) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+{% endblock %}

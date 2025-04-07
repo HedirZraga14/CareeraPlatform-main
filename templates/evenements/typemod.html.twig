@@ -1,0 +1,97 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Gestion des Evènements{% endblock %}
+{% block navbar %}
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-3">
+                <a href="{{ path('app_home') }}" class="navbar-brand d-flex align-items-center text-center">
+                    
+                    <img class="img-fluid" src="{{ asset('img/transparentcareera.png') }}" alt="Icon" style="width: 150px; height: 100px;">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="{{ path('app_home') }}" class="nav-item nav-link active">Acceuil</a>
+                        <a href="{{ path('app_offremod') }}" class="nav-item nav-link">Offres d'emploi</a>
+                        <a href="{{ path('app_event') }}" class="nav-item nav-link">Evénements</a>
+                        <a href="{{ path('app_offrefrelencer_index') }}" class="nav-item nav-link">Mission freelance</a>
+                        <a href="{{ path('discussion_stats') }}" class="nav-item nav-link">Communication</a>
+                        <a href="{{ path('chatbot_page') }}" class="nav-item nav-link {% if app.request.get('_route') == 'chatbot_page' %}active{% endif %}">
+                            <i class="fa-solid fa-robot"></i>  
+                        </a>
+                    </div>
+                     <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user-circle fa-2x"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="{{ path('app_profilemoderateur') }}">Profile</a></li>
+                            <li>
+                                <a class="dropdown-item" href="{{ path('app_logout') }}">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+{% endblock %}
+
+{% block body %}
+<h1 class="mb-3 text-center">Gestion des Evènements</h1>
+
+<div class="container">
+    <!-- Boutons alignés à gauche -->
+    <div class="d-flex justify-content-start mb-4">
+    <a href="event"  class="btn btn-outline-dark px-3">
+                <i class="fas fa-list me-2"></i>consulter les évenements
+            </a>
+     
+        <!-- Bouton pour ajouter une nouvelle offre -->
+        <a href="addtypeEvent" class="btn btn-success">Ajouter un type evènement</a> 
+        
+    </div>
+
+    <!-- Tableau des offres -->
+    <table class="table table-bordered"> 
+        <thead>
+            <tr>
+                <th>type de evènement</th>
+                
+                
+            </tr>
+        </thead>
+        <tbody>
+            {% for event in tabevent %}
+                <tr>
+                    <td>{{ event.nom }}</dt>
+                  
+                    
+                    {# Ceci est un commentaire Twig. Il ne sera pas affiché dans le HTML final. 
+
+                    <td><img src="{{ asset('uploads/images/' ~ offre.image) }}" alt="Image de {{ offre.nomposte }}" width="50"></td>#}
+                    <td>
+                        <a href="editType/{{event.id}}" class="btn btn-primary btn-sm">Modifier</a>
+                        <a href="deltypeEvent/{{event.id}}"
+                            class="btn btn-danger btn-sm" 
+                            onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette offre ?');">Supprimer
+                        </a>
+                    </td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td colspan="10" class="text-center">Aucune type d'evènement trouvée.</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    
+
+</div>
+
+{% endblock %}
