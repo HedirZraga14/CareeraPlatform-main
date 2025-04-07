@@ -516,6 +516,6 @@ class __TwigTemplate_0484d79c92a7af258ab91d25baef666b extends Template
             
             <!-- main End -->
 {% endblock %}
-", "home/index.html.twig", "C:\\careera\\templates\\home\\index.html.twig");
+", "home/index.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\home\\index.html.twig");
     }
 }

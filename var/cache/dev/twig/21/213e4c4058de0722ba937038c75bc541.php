@@ -293,6 +293,6 @@ class __TwigTemplate_daa7d615a4d560cc95a9187c33d25914 extends Template
     </table>
 </div>
 {% endblock %}
-", "candidature/rejetees.html.twig", "C:\\careera\\templates\\candidature\\rejetees.html.twig");
+", "candidature/rejetees.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\candidature\\rejetees.html.twig");
     }
 }

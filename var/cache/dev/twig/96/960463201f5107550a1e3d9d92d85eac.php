@@ -254,6 +254,6 @@ class __TwigTemplate_03a8b1269940af1e8e246283106417d6 extends Template
     {% endif %}
 </div>
 {% endblock %}
-", "candidature/pdf.html.twig", "C:\\careera\\templates\\candidature\\pdf.html.twig");
+", "candidature/pdf.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\candidature\\pdf.html.twig");
     }
 }

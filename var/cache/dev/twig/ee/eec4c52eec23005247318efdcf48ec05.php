@@ -334,6 +334,6 @@ class __TwigTemplate_a3356420fa2542530063858b4fde9c08 extends Template
   </div>
 </div>
 {% endblock %}
-", "security/updatefreelancer.html.twig", "C:\\careera\\templates\\security\\updatefreelancer.html.twig");
+", "security/updatefreelancer.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\security\\updatefreelancer.html.twig");
     }
 }

@@ -522,6 +522,6 @@ class __TwigTemplate_39e3beb468bf5ce40a8bd824b25d8d90 extends Template
         <a href=\"{{ path('app_mes_candidatures') }}\" class=\"filled-button\">Consulter ma candidature</a>
         <a href=\"{{ path('app_demande_mission_index') }}\" class=\"filled-button\">Supprimer demande</a>
     </div>
-{% endblock %}", "offrefrelencer/index.html.twig", "C:\\careera\\templates\\offrefrelencer\\index.html.twig");
+{% endblock %}", "offrefrelencer/index.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\offrefrelencer\\index.html.twig");
     }
 }

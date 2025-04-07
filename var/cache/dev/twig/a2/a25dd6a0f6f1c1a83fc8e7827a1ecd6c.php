@@ -119,6 +119,6 @@ class __TwigTemplate_f4e08a772a32e05511bf75c961d0b029 extends Template
 <div {{ attributes.defaults({class: 'dropdown'}) }}>
     {% block content %}{% endblock %}
 </div>
-", "@EasyAdmin/components/ActionMenu.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\components\\ActionMenu.html.twig");
+", "@EasyAdmin/components/ActionMenu.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\components\\ActionMenu.html.twig");
     }
 }

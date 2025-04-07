@@ -250,6 +250,6 @@ class __TwigTemplate_0e8cd1a61701a888b77afa38f00ce743 extends Template
     </div>
 </div>
 {% endblock %}
-", "security/register.html.twig", "C:\\careera\\templates\\security\\register.html.twig");
+", "security/register.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\security\\register.html.twig");
     }
 }

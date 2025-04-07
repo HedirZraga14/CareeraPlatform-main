@@ -110,6 +110,6 @@ unset($context[$key]);
         return new Source("{% props requestId = null -%}
 
 <turbo-stream action=\"refresh\"{% if requestId is not null %} request-id=\"{{ requestId }}\"{% endif %} {{- attributes }}></turbo-stream>
-", "@Turbo/components/Stream/Refresh.html.twig", "C:\\careera\\vendor\\symfony\\ux-turbo\\templates\\components\\Stream\\Refresh.html.twig");
+", "@Turbo/components/Stream/Refresh.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\symfony\\ux-turbo\\templates\\components\\Stream\\Refresh.html.twig");
     }
 }

@@ -448,6 +448,6 @@ class __TwigTemplate_1bd9a22cd13dac4bc36ec8fd0de0bf60 extends Template
         }
     </style>
 {% endblock %}
-", "admin/index.html.twig", "C:\\careera\\templates\\admin\\index.html.twig");
+", "admin/index.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\admin\\index.html.twig");
     }
 }

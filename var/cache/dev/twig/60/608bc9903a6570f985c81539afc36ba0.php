@@ -364,6 +364,6 @@ class __TwigTemplate_303345cd129e13a03bd72a52cad55fa4 extends Template
         </div>
     </div>
 {% endblock %}
-", "candidaturemission/index.html.twig", "C:\\careera\\templates\\candidaturemission\\index.html.twig");
+", "candidaturemission/index.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\candidaturemission\\index.html.twig");
     }
 }

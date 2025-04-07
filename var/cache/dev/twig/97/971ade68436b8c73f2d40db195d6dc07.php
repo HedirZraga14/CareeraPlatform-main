@@ -303,6 +303,6 @@ class __TwigTemplate_486f13f16d478039c36c66933cb6e07e extends Template
         </div>
     </div>
 </div>
-{% endblock %}", "security/profilechercheur.html.twig", "C:\\careera\\templates\\security\\profilechercheur.html.twig");
+{% endblock %}", "security/profilechercheur.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\security\\profilechercheur.html.twig");
     }
 }

@@ -119,6 +119,6 @@ class __TwigTemplate_86106c7fae3fc89531e7c570736f3d0d extends Template
 {% else %}
     {{ field.formattedValue }}
 {% endif %}
-", "@EasyAdmin/crud/field/array.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\crud\\field\\array.html.twig");
+", "@EasyAdmin/crud/field/array.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\crud\\field\\array.html.twig");
     }
 }

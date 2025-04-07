@@ -170,6 +170,6 @@ class __TwigTemplate_50def3dba9af7f3cd1b6b86d6aff589b extends Template
     </ul>
 </div>
 {% endblock %}
-", "user_data/index.html.twig", "C:\\careera\\templates\\user_data\\index.html.twig");
+", "user_data/index.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\user_data\\index.html.twig");
     }
 }

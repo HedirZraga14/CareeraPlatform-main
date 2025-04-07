@@ -128,6 +128,6 @@ class __TwigTemplate_99a7c04896c7ff01dd7e8b27a20c1ac1 extends Template
         <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>
     {% endif %}
 </div>
-", "@EasyAdmin/components/Alert.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\components\\Alert.html.twig");
+", "@EasyAdmin/components/Alert.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\components\\Alert.html.twig");
     }
 }

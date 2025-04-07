@@ -1582,6 +1582,6 @@ class __TwigTemplate_df013793ee96932012ca84ff25a5e431 extends Template
         </div>
         <!-- Testimonial End -->
 {% endblock %} 
-", "index/index.html.twig", "C:\\careera\\templates\\index\\index.html.twig");
+", "index/index.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\index\\index.html.twig");
     }
 }

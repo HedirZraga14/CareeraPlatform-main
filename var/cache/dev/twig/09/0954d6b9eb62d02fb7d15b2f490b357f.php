@@ -211,6 +211,6 @@ class __TwigTemplate_a380116e9cc4ddd9c58b133d5dc67eac extends Template
     </div>
 </div>
 {% endblock %}
-", "typecontrat/addtypecontrat.html.twig", "C:\\careera\\templates\\typecontrat\\addtypecontrat.html.twig");
+", "typecontrat/addtypecontrat.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\typecontrat\\addtypecontrat.html.twig");
     }
 }

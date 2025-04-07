@@ -2272,6 +2272,6 @@ class __TwigTemplate_130b15df18a4d3c3b510a3215dbd6413 extends Template
         </dd>
     </div>
 {% endmacro %}
-", "@EasyAdmin/crud/detail.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\crud\\detail.html.twig");
+", "@EasyAdmin/crud/detail.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\crud\\detail.html.twig");
     }
 }

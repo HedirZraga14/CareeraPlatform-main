@@ -133,6 +133,6 @@ unset($context[$key]);
 <turbo-stream action=\"append\" targets=\"{{ target }}\" {{- attributes }}>
     <template>{% block content %}{% endblock %}</template>
 </turbo-stream>
-", "@Turbo/components/Stream/Append.html.twig", "C:\\careera\\vendor\\symfony\\ux-turbo\\templates\\components\\Stream\\Append.html.twig");
+", "@Turbo/components/Stream/Append.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\symfony\\ux-turbo\\templates\\components\\Stream\\Append.html.twig");
     }
 }

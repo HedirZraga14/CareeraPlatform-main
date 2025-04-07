@@ -71,6 +71,6 @@ class __TwigTemplate_01645dd37bc99443af19dfa1a0e77880 extends Template
 
     public function getSourceContext(): Source
     {
-        return new Source("", "offre/supprimeroffre.html.twig", "C:\\careera\\templates\\offre\\supprimeroffre.html.twig");
+        return new Source("", "offre/supprimeroffre.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\offre\\supprimeroffre.html.twig");
     }
 }

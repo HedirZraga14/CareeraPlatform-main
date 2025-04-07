@@ -123,6 +123,6 @@ class __TwigTemplate_af422d7dbe4ced1c231b673f8a31b35f extends Template
         {% endguard %}
     {% endif %}
 </span>
-", "@EasyAdmin/components/Icon.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\components\\Icon.html.twig");
+", "@EasyAdmin/components/Icon.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\components\\Icon.html.twig");
     }
 }

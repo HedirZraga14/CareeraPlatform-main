@@ -221,6 +221,6 @@ class __TwigTemplate_07db49eb8158ce225650a98b60f6b7af extends Template
     });
 </script>
 {% endblock %}
-", "chatbot/index.html.twig", "C:\\careera\\templates\\chatbot\\index.html.twig");
+", "chatbot/index.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\chatbot\\index.html.twig");
     }
 }

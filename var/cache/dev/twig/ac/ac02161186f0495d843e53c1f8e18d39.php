@@ -150,6 +150,6 @@ class __TwigTemplate_2d14b31b81ec55d36c443fd8517f7cdf extends Template
         {%- for attr, value in css_asset.htmlAttributes %} {{ attr }}=\"{{ value|e('html') }}\"{% endfor %}>
     {% endif %}
 {% endfor %}
-", "@EasyAdmin/includes/_css_assets.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\includes\\_css_assets.html.twig");
+", "@EasyAdmin/includes/_css_assets.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\includes\\_css_assets.html.twig");
     }
 }

@@ -172,6 +172,6 @@ class __TwigTemplate_832180e93dad17b32be767ef2f9e4047 extends Template
         </span>
     </button>
 {% endif %}
-", "@EasyAdmin/crud/action.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\crud\\action.html.twig");
+", "@EasyAdmin/crud/action.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\crud\\action.html.twig");
     }
 }

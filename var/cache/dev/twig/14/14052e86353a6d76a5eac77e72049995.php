@@ -368,6 +368,6 @@ class __TwigTemplate_9cd8db6657bfe5f92155b74cf1dd213f extends Template
     <!-- Formulaire de suppression -->
     {{ include('offrefrelencer/_delete_form.html.twig') }}
 {% endblock %}
-", "offrefrelencer/edit.html.twig", "C:\\careera\\templates\\offrefrelencer\\edit.html.twig");
+", "offrefrelencer/edit.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\offrefrelencer\\edit.html.twig");
     }
 }

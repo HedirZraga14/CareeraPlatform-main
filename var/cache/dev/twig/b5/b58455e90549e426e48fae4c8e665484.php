@@ -233,6 +233,6 @@ class __TwigTemplate_252d39363afed198d367c413e263162b extends Template
     </div>
 </div>
 {% endblock %}
-", "candidature/updatecandidature.html.twig", "C:\\careera\\templates\\candidature\\updatecandidature.html.twig");
+", "candidature/updatecandidature.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\candidature\\updatecandidature.html.twig");
     }
 }

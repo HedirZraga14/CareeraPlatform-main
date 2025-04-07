@@ -140,6 +140,6 @@ class __TwigTemplate_8e5b71551e697dcbb9135428f9db8b70 extends Template
         </div>
     </div>
 </div>
-", "@EasyAdmin/crud/includes/_filters_modal.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\crud\\includes\\_filters_modal.html.twig");
+", "@EasyAdmin/crud/includes/_filters_modal.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\crud\\includes\\_filters_modal.html.twig");
     }
 }

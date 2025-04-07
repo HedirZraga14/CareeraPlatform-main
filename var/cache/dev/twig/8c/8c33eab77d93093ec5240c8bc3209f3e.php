@@ -75,6 +75,6 @@ class __TwigTemplate_1fbe2cfb11f26830be1e2f72b446069d extends Template
     public function getSourceContext(): Source
     {
         return new Source("<li class=\"dropdown-divider\"></li>
-", "@EasyAdmin/components/ActionMenu/ActionList/Divider.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\components\\ActionMenu\\ActionList\\Divider.html.twig");
+", "@EasyAdmin/components/ActionMenu/ActionList/Divider.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\components\\ActionMenu\\ActionList\\Divider.html.twig");
     }
 }

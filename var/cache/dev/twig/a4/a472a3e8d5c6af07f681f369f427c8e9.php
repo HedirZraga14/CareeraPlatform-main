@@ -572,6 +572,6 @@ class __TwigTemplate_2ece3c70f2f9607b65307c6c91a6b525 extends Template
         </a>
     {% endif %}
 {% endmacro %}
-", "@EasyAdmin/menu.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\menu.html.twig");
+", "@EasyAdmin/menu.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\menu.html.twig");
     }
 }

@@ -100,6 +100,6 @@ class __TwigTemplate_92e16c7b40ab83d7cb1c04033299055b extends Template
         {{ encore_entry_script_tags(encore_asset.value, encore_asset.webpackPackageName, encore_asset.webpackEntrypointName, encore_asset.htmlAttributes) }}
     {% endguard %}
 {% endfor %}
-", "@EasyAdmin/includes/_encore_script_tags.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\includes\\_encore_script_tags.html.twig");
+", "@EasyAdmin/includes/_encore_script_tags.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\includes\\_encore_script_tags.html.twig");
     }
 }

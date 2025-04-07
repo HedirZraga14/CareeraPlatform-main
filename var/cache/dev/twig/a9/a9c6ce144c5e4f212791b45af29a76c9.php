@@ -147,6 +147,6 @@ unset($context[$key]);
 <turbo-stream action=\"replace\" targets=\"{{ target }}\"{% if morph %} method=\"morph\"{% endif %} {{- attributes }}>
     <template>{% block content %}{% endblock %}</template>
 </turbo-stream>
-", "@Turbo/components/Stream/Replace.html.twig", "C:\\careera\\vendor\\symfony\\ux-turbo\\templates\\components\\Stream\\Replace.html.twig");
+", "@Turbo/components/Stream/Replace.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\symfony\\ux-turbo\\templates\\components\\Stream\\Replace.html.twig");
     }
 }

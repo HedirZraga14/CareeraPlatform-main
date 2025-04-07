@@ -262,6 +262,6 @@ class __TwigTemplate_883f30003b8e5119c23b4601550069bf extends Template
         </div>
     </div>
 </div>
-{% endblock %}", "security/profilemoderateur.html.twig", "C:\\careera\\templates\\security\\profilemoderateur.html.twig");
+{% endblock %}", "security/profilemoderateur.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\security\\profilemoderateur.html.twig");
     }
 }

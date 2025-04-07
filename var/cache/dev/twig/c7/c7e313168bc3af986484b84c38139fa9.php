@@ -170,6 +170,6 @@ class __TwigTemplate_1ff5e17120d5fb5750b2bc2130451fa4 extends Template
     </ul>
 </div>
 {% endblock %}
-", "notificationfreelencer/index.html.twig", "C:\\careera\\templates\\notificationfreelencer\\index.html.twig");
+", "notificationfreelencer/index.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\notificationfreelencer\\index.html.twig");
     }
 }

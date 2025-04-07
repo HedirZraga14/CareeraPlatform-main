@@ -217,6 +217,6 @@ class __TwigTemplate_790ee5a6eaec1ac5727037584e073dce extends Template
 
 </body>
 </html>
-", "error/access_denied.html.twig", "C:\\careera\\templates\\error\\access_denied.html.twig");
+", "error/access_denied.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\error\\access_denied.html.twig");
     }
 }

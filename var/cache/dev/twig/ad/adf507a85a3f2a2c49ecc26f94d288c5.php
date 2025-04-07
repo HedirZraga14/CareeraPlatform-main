@@ -4360,6 +4360,6 @@ array_key_exists("prototype", $context)) ? (CoreExtension::getAttribute($this->e
         </button>
     </div>
 {% endblock %}
-", "@EasyAdmin/crud/form_theme.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\crud\\form_theme.html.twig");
+", "@EasyAdmin/crud/form_theme.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\crud\\form_theme.html.twig");
     }
 }

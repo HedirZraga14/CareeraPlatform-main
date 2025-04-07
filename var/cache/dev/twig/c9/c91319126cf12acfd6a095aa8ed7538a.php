@@ -272,6 +272,6 @@ class __TwigTemplate_6140982b65fa0ed8a5a3f710aa37fcc1 extends Template
     </tbody>
 </table>
 {% endblock %}
-", "offre/pdf.html.twig", "C:\\careera\\templates\\offre\\pdf.html.twig");
+", "offre/pdf.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\offre\\pdf.html.twig");
     }
 }

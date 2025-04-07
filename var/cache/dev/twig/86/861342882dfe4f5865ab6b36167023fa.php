@@ -210,6 +210,6 @@ class __TwigTemplate_6df61e5c6fc1f02183806bbc197c62df extends Template
         </div>
     </div>
 {% endblock %}
-", "reset_password/request.html.twig", "C:\\careera\\templates\\reset_password\\request.html.twig");
+", "reset_password/request.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\reset_password\\request.html.twig");
     }
 }

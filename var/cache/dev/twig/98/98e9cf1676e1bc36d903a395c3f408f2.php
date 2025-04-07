@@ -295,6 +295,6 @@ class __TwigTemplate_59fd2ceb7378c30a41888bcb7a7beab5 extends Template
     </table>
 </div>
 {% endblock %}
-", "candidature/acceptees.html.twig", "C:\\careera\\templates\\candidature\\acceptees.html.twig");
+", "candidature/acceptees.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\candidature\\acceptees.html.twig");
     }
 }

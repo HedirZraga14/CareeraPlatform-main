@@ -334,6 +334,6 @@ class __TwigTemplate_9b7004240e91136c2f9ed09f78bdf994 extends Template
 
         {{ form_end(NewReply) }}
 {% endblock %}
-", "forum_details/index.html.twig", "C:\\careera\\templates\\forum_details\\index.html.twig");
+", "forum_details/index.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\forum_details\\index.html.twig");
     }
 }

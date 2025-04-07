@@ -481,6 +481,6 @@ class __TwigTemplate_6bf6ab3bd11c51b1dd134e1a6406606a extends Template
 
 <!-- Inclure FontAwesome pour les icônes (si non déjà inclus dans base.html.twig) -->
 <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\">
-{% endblock %}", "evenements/ajoutevent.html.twig", "C:\\careera\\templates\\evenements\\ajoutevent.html.twig");
+{% endblock %}", "evenements/ajoutevent.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\evenements\\ajoutevent.html.twig");
     }
 }

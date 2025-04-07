@@ -537,6 +537,6 @@ class __TwigTemplate_963d8365a513daf3e9d8269f474ee94d extends Template
     .btn:hover { transform: scale(1.05); }
 </style>
 {% endblock %}
-", "evenements/event_detail.html.twig", "C:\\careera\\templates\\evenements\\event_detail.html.twig");
+", "evenements/event_detail.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\evenements\\event_detail.html.twig");
     }
 }

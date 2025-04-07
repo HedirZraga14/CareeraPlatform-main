@@ -127,6 +127,6 @@ class __TwigTemplate_fc1e486a149421ce93a0eb0c25088a56 extends Template
 {{ form_end(form) }}
 
 
-", "offrefrelencer/_form.html.twig", "C:\\careera\\templates\\offrefrelencer\\_form.html.twig");
+", "offrefrelencer/_form.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\offrefrelencer\\_form.html.twig");
     }
 }

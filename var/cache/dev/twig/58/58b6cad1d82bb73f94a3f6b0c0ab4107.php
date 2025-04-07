@@ -96,6 +96,6 @@ class __TwigTemplate_eb0cdb437e2d09f98e2ff488a7f06dd8 extends Template
 <span class=\"badge badge-danger\" title=\"{{ 'label.inaccessible.explanation'|trans }}\">
     {{ 'label.inaccessible'|trans }}
 </span>
-", "@EasyAdmin/label/inaccessible.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\label\\inaccessible.html.twig");
+", "@EasyAdmin/label/inaccessible.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\label\\inaccessible.html.twig");
     }
 }

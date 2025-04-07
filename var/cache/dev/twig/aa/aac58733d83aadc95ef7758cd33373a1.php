@@ -170,6 +170,6 @@ class __TwigTemplate_9a7855673593445e6e69e650890bb872 extends Template
     </ul>
 </div>
 {% endblock %}
-", "freelancer/index.html.twig", "C:\\careera\\templates\\freelancer\\index.html.twig");
+", "freelancer/index.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\templates\\freelancer\\index.html.twig");
     }
 }

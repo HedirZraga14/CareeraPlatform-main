@@ -115,6 +115,6 @@ class __TwigTemplate_362e9228711b1151ea7274a5786cd980 extends Template
         return new Source("<li {{ attributes }}>
     {% block content %}{% endblock %}
 </li>
-", "@EasyAdmin/components/ActionMenu/ActionList/Content.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\components\\ActionMenu\\ActionList\\Content.html.twig");
+", "@EasyAdmin/components/ActionMenu/ActionList/Content.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\components\\ActionMenu\\ActionList\\Content.html.twig");
     }
 }

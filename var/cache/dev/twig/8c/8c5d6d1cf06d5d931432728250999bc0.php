@@ -88,6 +88,6 @@ class __TwigTemplate_1d09ca5d41d103edde5dc38e71beb3e6 extends Template
 {% guard function importmap %}
     {{ importmap(assets|map(asset => asset.value)) }}
 {% endguard %}
-", "@EasyAdmin/includes/_importmap.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\includes\\_importmap.html.twig");
+", "@EasyAdmin/includes/_importmap.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\includes\\_importmap.html.twig");
     }
 }

@@ -199,6 +199,6 @@ class __TwigTemplate_4100cdc5e480223df76c3f76229d9e12 extends Template
         <li><a href=\"https://github.com/EasyCorp/EasyAdminBundle\">Project homepage</a></li>
     </ul>
 {% endblock %}
-", "@EasyAdmin/inspector/data_collector.html.twig", "C:\\careera\\vendor\\easycorp\\easyadmin-bundle\\templates\\inspector\\data_collector.html.twig");
+", "@EasyAdmin/inspector/data_collector.html.twig", "C:\\Users\\hedir\\OneDrive\\Desktop\\CareeraPlatform-main\\vendor\\easycorp\\easyadmin-bundle\\templates\\inspector\\data_collector.html.twig");
     }
 }
